@@ -1,6 +1,7 @@
 
-# Here this is the basic Encrypt and Decrypt My project in java...
-**In this project the interesting thing is that ->>
+# Here this is the basic Encrypt and Decryption in java.
+### ALl the main logic is that read the ASCII value of the each character of the string and shift (add) the ASCII value by the `key + extra value` and in decryption remove the extra value by the given `key + extra value ` to extract the original information.
+**In this project the interesting thing is that
  Whole process is done without using the encrypt and decrypt in-built function of java. (all the code is used as self-logic)..**
  
 As, the function `String encryptcon(String mess,int code)` 
@@ -16,4 +17,4 @@ if u have any suggestion of information then send me at sushant1234gautam@gmail.
 Thanks for seeing it.  Good Luck!!
 
 
-## Any improvement about this is acceptable.
+## Any improvement about this is acceptable such as image encryption, video encryption etc.
