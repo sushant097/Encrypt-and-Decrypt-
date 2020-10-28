@@ -1,8 +1,8 @@
 
 # Here this is the basic Encrypt and Decryption in java.
-### ALl the main logic is that read the ASCII value of the each character of the string and shift (add) the ASCII value by the `key + extra value` and in decryption remove the extra value by the given `key + extra value ` to extract the original information.
-**In this project the interesting thing is that
- Whole process is done without using the encrypt and decrypt in-built function of java. (all the code is used as self-logic)..**
+* ALL the main logic is that read the ASCII value of the each character of the string and shift (add) the ASCII value by the `key + extra value` and in decryption remove the extra value by the given `key + extra value ` to extract the original information.
+* **In this project the interesting thing is that
+ Whole process is done without using the encrypt and decrypt in-built function of java. (all the code is used as self-logic).. Good to understand how encryption and decryption works also**
  
 As, the function `String encryptcon(String mess,int code)` 
                  receives the mess as string type and the code as integer which is the key input by the user. 
@@ -17,4 +17,21 @@ if u have any suggestion of information then send me at sushant1234gautam@gmail.
 Thanks for seeing it.  Good Luck!!
 
 
-## Any improvement about this is acceptable such as image encryption, video encryption etc.
+# Demo
+------------------------------------------------------------------------------------
+![](https://github.com/sushant097/Encrypt-and-Decrypt-/blob/master/Images/Must-See.png)
+![](https://github.com/sushant097/Encrypt-and-Decrypt-/blob/master/Images/the-basic-shot.png)
+![](https://github.com/sushant097/Encrypt-and-Decrypt-/blob/master/Images/ALLthEiNFORM.png)
+![](https://github.com/sushant097/Encrypt-and-Decrypt-/blob/master/Images/Main-Window.png)
+------------------------------------------------------------------------------------------
+
+## Notes
+To be honest, I didn't name it any, but everyone like the concept behind it. I will welcome any improvement over this project. 
+When I compare the system time complexity and space complexity to other algorithms such as AES, DES, this algorithm has good performance compared to others.
+
+## Improvement
+* How to better encrypt the key seen at end of encrypted content.
+* Add further encryption such as Image, Video etc.
+* **Advanced Feature: Encrypt from the Internet (link) content, and able to email the encrypted content to the specific person.**
+
+
